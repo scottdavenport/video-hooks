@@ -20,7 +20,7 @@ class SearchBar extends React.Component {
 			<div className="search-bar ui segment">
 				<form onSubmit={this.onFormSubmit} className="ui form">
 					<div className="field">
-						<label>Video Search</label>
+						<label>Search for a Video</label>
 						{/* Could also be... {e => this.setState({ term: e.target.value })} */}
 						<input type="text" value={this.state.term} onChange={this.onInputChange} />
 					</div>
